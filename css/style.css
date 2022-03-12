@@ -3566,7 +3566,7 @@ section.single-content-section {
 }
 .logo-holder {
     left: 20px;
-    top: 0px;
+    top: 5px;
 }
 .bottom-panel {
 	padding-left:30px;
@@ -3724,6 +3724,10 @@ section.single-content-section {
 }
 }
 @media only screen and (max-width: 640px) {
+	.search-button iframe{
+		height: 440px;
+		width: 100%;
+	}
 .fw-carousel .swiper-slide img , .fw-carousel .swiper-slide   {
     width: 100% !important;
     height: auto !important;
